@@ -1,2 +1,5 @@
+cat=int(input("Введите пожалауйста возраст: "))
 
-print("Hallo word")
+if cat>=1:
+    cat=cat-1
+    print(cat*8+15)
