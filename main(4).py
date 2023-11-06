@@ -1,6 +1,9 @@
 text = input("Введите пожалуйста фразу: ")
 
-if "Південь" in text:
+text_lower = text.lower()
+keyword = "південь".lower()
+
+if keyword in text_lower:
     print("True")
 else:
     print("False")
