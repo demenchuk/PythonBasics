@@ -1,2 +1,6 @@
+text = input("Введите пожалуйста фразу: ")
 
-print("Hallo word")
+if "Південь" in text:
+    print("True")
+else:
+    print("False")

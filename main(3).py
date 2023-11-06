@@ -1,2 +1,6 @@
+text = input("Введите пожалуйста фразу: ")
 
-print("Hallo word")
+if text == text[::-1]:
+    print("True")
+else:
+    print("False")
