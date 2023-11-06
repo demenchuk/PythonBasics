@@ -1,2 +1,3 @@
+text = str(input("Введите пожалуйста фразу: "))
 
-print("Hallo word")
+print('Фраза', text, 'має довжину', len(text), 'символів')
